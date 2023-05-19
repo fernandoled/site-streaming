@@ -1,0 +1,100 @@
+body{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#site{
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0a1531;
+}
+
+header{
+    width: 800px;
+    height: 60px;
+    background-color: #0a1531;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#menu{
+    width: 200px;
+    height: 60px;
+    float: right;
+}
+
+#menu a{
+    color: #FFF;
+    display: inline-block;
+    padding-top: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+section{
+    width: 800px;
+    color:#FFF;
+}
+
+section h2{
+    padding-left: 15px;
+}
+
+section p{
+    padding-left: 15px;
+}
+
+#banner img{
+    padding: 2px;
+}
+
+#banner{
+    padding: 8px;
+    display: flex;
+}
+
+#banner2{
+    display: flex;
+    justify-content: center;   
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#banner2 img{
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+#texto2{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding-right: 15px;
+
+}
+
+#texto2 h1{
+    padding-left: 15px;
+    display: flex;
+}
+
+#rodape{
+    background-color: #FFF;
+    padding: 20px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#social{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#social a{
+    text-decoration: none;
+}
